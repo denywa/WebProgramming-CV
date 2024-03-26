@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #bee8ff;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  position: relative;
+}
+.header img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.header h1 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  color: #333;
+}
+.header p {
+  margin: 5px 0;
+  color: #777;
+}
+.header-info {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 160px; /* Menggeser nama dan alamat dari gambar */
+}
+.header2 {
+  text-align: start;
+}
+.section {
+  padding: 20px 0;
+}
+.section:not(:last-child) {
+  border-bottom: 2px solid #eee;
+}
+.section-title {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.section-content {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.section-content h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+.section-content p,
+.section-content ul {
+  margin: 5px 0;
+  color: #666;
+}
+.section-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+.section-content ul li {
+  margin-bottom: 5px;
+  padding-left: 20px; /* Adjusted the padding to align the bullet points */
+}
+.section-content ul li:before {
+  content: "•";
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.content ul {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
